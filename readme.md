@@ -55,7 +55,7 @@ In this project, I provide implementation and documentation of the projects I di
 <br />
 
  <details open="open"><summary><h2 style="display: inline-block">Projects Using Beautiful Soup and Selenium</h2></summary>
-      <ol><ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/data-entry%20automation(beautiful%20soup%20and%20selenium)">Data-Entry Automation</a></li>
+      <ol><ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/tree/main/dataEntryAutomation_BeautifulSoup_and_selenium">Data-Entry Automation</a></li>
                 <details><br /> In this project, I used <a >Selenium</a> and <a>Beautiful Soup</a>  to implement an automate a tool that gets all apartments listings form 
  the <a href="https://www.zillow.com">Zillow</a> website and all important information related to the listings and eventually use the obtained information to fill out a Google form.
 I used Beautiful Soup to get:
@@ -73,7 +73,7 @@ I also used Selenium to fill out a Google Form with all the information that was
     <details open="open">
       <summary><h2 style="display: inline-block">Projects Using Selenium</h2></summary>
         <ol>
-<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/twitter%20bot">Twitter Bot</a></li>
+<ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/tree/main/selenium_automation/twitterBot">Twitter Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a> to implement a tweet bot to write tweets to the internet provider complaining about the internet speed, once the speed goes below the promised speed.<br />
 First: the bot checks out the internet speed on <a href="https://www.speedtest.com"> Speedtest website</a> from which the webdriver retrieves the Download speed, Upload speed and PING. 
 If either of these properties are below their promised values, then the Bot logs in <a href="https://www.twitter.com"> Twitter</a> with given a username and password (that are stored in the environment variables) and tweets to the internet provider with  a complaint  containing the current download/upload/ping speed.
@@ -84,27 +84,27 @@ If either of these properties are below their promised values, then the Bot logs
 </ul><br/>
 
 
-<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/instagram%20following%20bot">Instagram following Bot</a></li>
+<ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/tree/main/selenium_automation/instagramFollowingBot">Instagram following Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a> to automate a web driver to get to the <a href="https://instagram.com"> Instagram </a> website  and login with a given user name and password, then redirects to a given account url, then shows the followers to this given account and start following them( and ignores the ones that are already being followed from that account that the bot operates).<br /></details>
             <ul> - Used modules: <em>selenium</em></ul> <br/>
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>, Instagram <code>username</code> and <code>password</code> as <code>INSTA_USERNAME</code>,<code>INSTA_PASSWORD</code> in the environment variables and run the <code>main.py </code> file.</ul> 
 </ul><br/>
 
 
-<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/Linkedin%20application">Automated Linkedin Job Application Bot</a></li>
+<ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/tree/main/selenium_automation/Linkedin_application">Automated Linkedin Job Application Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a> to automate the chrome browser to get to the <a href="https://linkedin.com"> Linkedin </a> website  and login with a given user name and password , enter a search term for the job search, go to the jobs page and save for all the available jobs or apply for the available jobs with an easy application option.<br /></details>
             <ul> - Used modules: <em>selenium</em></ul> <br/>
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>, Linkedin <code>username</code> and <code>password</code> as <code>LINKEDIN_USERNAME</code>,<code>LINKEDIN_PASSWORD</code> in the environment variables and run the <code>main.py </code> file.</ul> 
 </ul><br/>
 
-<ul><li><a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/The%20Cookie%20clicker%20(BOT)">Cookie Clicker Bot</a></li>
+<ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/tree/main/selenium_automation/TheCookieClickerBOT">Cookie Clicker Bot</a></li>
 <details><br /> In this project, I use <a >Selenium</a>  in <code>classic-cookie-clicker-bot.py</code> to automate the chrome browser to get to the <a href="https://orteil.dashnet.org/experiments/cookie/"> Classic Cookie Clicker game </a> website and click on the cookie to bake cookies, and each five seconds buy the item with the highest affordable price form the item list.<br />In <code>upgraded_cookie_clicker_bot.py</code>, I implemented the chrome driver to play the upgraded version of the <a href="https://orteil.dashnet.org/cookieclicker/"> Cookie clicker</a>.</details>
             <ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.action_chains</em></ul> <br/>
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>upgraded_cookie_clicker_bot.py</code> or the classic-cookie-clicker-bot.py file.</ul> 
 </ul><br/>
 
 
-   <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/upcoming-events(python.org).py">Upcoming events (python.org)</a></li>
+   <ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/blob/main/selenium_automation/upcoming-events(python.org).py">Upcoming events (python.org)</a></li>
                 <details><br /> In this project, I use <a >Selenium</a> to automate  the chrome browser to get to the <a>python.org</a> website and get the upcoming events listed in the main page.</details>
 
 <ul> - Used modules: <em>selenium</em></ul> <br>
@@ -114,7 +114,7 @@ If either of these properties are below their promised values, then the Bot logs
 
 
 <ol>
-        <ul><li><a href="https://github.com/amgad01/python-code/blob/main/Web%20scraping%20and%20automation/Automation%20(Selenium)/LAB%20Report%20Signup.py">LAB-REPORT signup</a></li>
+        <ul><li><a href="https://github.com/amgad01/web-scraping-and-automation/blob/main/selenium_automation/LAB%20Report%20Signup.py">LAB-REPORT signup</a></li>
                 <details><br /> In this project, I implement simple <a >Selenium</a>  functionality to in order to automate the chrome browser to fill out a form and click submit on a given webpage.</details>
             <ul> - Used modules: <em>selenium</em>, <em>selenium.webdriver.common.keys</em></ul> 
             <ul> - To run the project: save the local path to the <code>chromedriver.exe</code> file in the environment variable under the name <code>"CHROME_DRIVER"</code>  and run the <code>LAB Report Signup.py</code> file.</ul> </ul> <br/>

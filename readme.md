@@ -123,7 +123,7 @@ If either of these properties are below their promised values, then the Bot logs
 <details open="open">
   <summary><h2 style="display: inline-block" 
  >Projects Using Scrapy</h2></summary>
-<ul>Documentation for the projects using scrapy can be found <a href="https://github.com/amgad01/python-code/tree/main/Web%20scraping%20and%20automation/scrapy-practice/">here </a> </ul>
+<ul>Documentation for the projects using scrapy can be found <a href="https://github.com/amgad01/web-scraping-and-automation/tree/main/scrapy_practice">here </a> </ul>
 </details>
 
 <!---[comment]: <> ABOUT THE PROJECT -->

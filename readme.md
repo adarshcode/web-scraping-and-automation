@@ -1,7 +1,7 @@
 <br />
-![visitors](https://visitor-badge.glitch.me/badge?page_id=amgad01.web-scraping-and-automation)
-<p >
 
+<p >
+![visitors](https://visitor-badge.glitch.me/badge?page_id=amgad01.web-scraping-and-automation)
 <h3 align="center">Web Scraping and Automation </h3>
 
   <p >
